@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente. Conheça os dados, os biomas e o futuro do agronegócio brasileiro." />
+  <!-- TAG OBRIGATÓRIA DO PROJETO -->
+  <meta name="agrinho" content="Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente" />
+  <title>Agro Forte, Futuro Sustentável</title>
+
+  <!-- Google Fonts: Merriweather (títulos) + Open Sans (corpo) — Paleta 2 Cerrado Vivo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVEGAÇÃO ========== -->
+  <header class="navbar" role="banner">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="Página inicial">
+        🌾 Agro Sustentável
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="navMenu" class="nav-menu" role="navigation" aria-label="Menu principal">
+        <a href="#o-agro">O Agro</a>
+        <a href="#biomas">Biomas</a>
+        <a href="#dados">Dados</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#creditos">Créditos</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== SEÇÃO HERO ========== -->
+  <section id="hero" class="hero" aria-label="Apresentação do tema">
+    <!--
+      Imagem de fundo: campo agrícola no Cerrado
+      Fonte da imagem: Unsplash – foto de Agustin Gunawan
+      URL: https://unsplash.com/photos/green-grass-field-during-daytime-4cBYwb9RAQQ
+      Licença: Unsplash Free License (uso livre, sem atribuição obrigatória)
+    -->
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <span class="hero-eyebrow">Projeto Agrinho 2024</span>
+      <h1 class="hero-title">Agro forte,<br /><em>futuro sustentável</em></h1>
+      <p class="hero-subtitle">
+        Equilíbrio entre produção e meio ambiente — entenda por que crescer sem desmatar é possível e urgente.
+      </p>
+      <a href="#o-agro" class="btn btn-primary">Explorar</a>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>▼</span>
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO: O AGRO BRASILEIRO ========== -->
+  <section id="o-agro" class="section section-light" aria-labelledby="agro-title">
+    <div class="container">
+      <span class="section-eyebrow">O setor</span>
+      <h2 id="agro-title" class="section-title">O agronegócio brasileiro em números</h2>
+      <p class="section-intro">
+        O Brasil é uma das maiores potências agrícolas do mundo. Mas como manter esse crescimento sem destruir o que nos sustenta?
+      </p>
+
+      <!-- Cards de dados estatísticos -->
+      <div class="stats-grid" role="list">
+
+        <!-- Fonte: CNA/CEPEA – PIB do Agronegócio, 4º trimestre de 2024. Disponível em: https://www.cnabrasil.org.br/noticias/pib-do-agronegocio-fecha-2024-com-crescimento-de-1-81 -->
+        <article class="stat-card" role="listitem">
+          <div class="stat-icon" aria-hidden="true">💰</div>
+          <div class="stat-number" data-target="2.72" data-suffix=" tri">R$ 0</div>
+          <p class="stat-label">PIB do agronegócio em 2024 (R$ trilhões)</p>
+          <p class="stat-source">Fonte: CNA/CEPEA, abr. 2025</p>
+        </article>
+
+        <!-- Fonte: CNA/CEPEA – participação no PIB nacional, 2024. Disponível em: https://www.cnabrasil.org.br/noticias/pib-do-agronegocio-fecha-2024-com-crescimento-de-1-81 -->
+        <article class="stat-card" role="listitem">
+          <div class="stat-icon" aria-hidden="true">📊</div>
+          <div class="stat-number" data-target="23.2" data-suffix="%">0%</div>
+          <p class="stat-label">Do PIB nacional em 2024</p>
+          <p class="stat-source">Fonte: CNA/CEPEA, abr. 2025</p>
+        </article>
+
+        <!-- Fonte: IBGE – Levantamento Sistemático da Produção Agrícola, 2024. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38865 -->
+        <article class="stat-card" role="listitem">
+          <div class="stat-icon" aria-hidden="true">🌾</div>
+          <div class="stat-number" data-target="315" data-suffix=" mi t">0</div>
+          <p class="stat-label">Toneladas de grãos colhidos em 2023 (recorde histórico)</p>
+          <p class="stat-source">Fonte: IBGE/CONAB, 2024</p>
+        </article>
+
+        <!-- Fonte: MAPA/Embrapa – Projeções do Agronegócio 2023/2024 a 2033/2034. Disponível em: https://agenciagov.ebc.com.br/noticias/202410/producao-de-graos-atingira-379-milhoes-de-toneladas-nos-proximos-dez-anos-com-crescimento-de-27 -->
+        <article class="stat-card" role="listitem">
+          <div class="stat-icon" aria-hidden="true">📈</div>
+          <div class="stat-number" data-target="27" data-suffix="%">0%</div>
+          <p class="stat-label">Crescimento projetado na produção de grãos até 2034</p>
+          <p class="stat-source">Fonte: MAPA/Embrapa, out. 2024</p>
+        </article>
+
+      </div><!-- .stats-grid -->
+
+      <!-- Bloco de contexto -->
+      <div class="context-block">
+        <div class="context-text">
+          <h3>Crescer sem expandir é possível</h3>
+          <!--
+            Fonte: MAPA/Embrapa – Projeções do Agronegócio 2023/2024 a 2033/2034
+            URL: https://agenciagov.ebc.com.br/noticias/202410/producao-de-graos-atingira-379-milhoes-de-toneladas-nos-proximos-dez-anos-com-crescimento-de-27
+          -->
+          <p>
+            Segundo projeções do Ministério da Agricultura e da Embrapa, o Brasil deve produzir <strong>379 milhões de toneladas de grãos até 2034</strong> — um crescimento de 27% — com a área plantada aumentando apenas 15,5%. Isso mostra que a <strong>produtividade</strong>, e não a expansão de área, é o caminho para o futuro do agro brasileiro.
+          </p>
+          <p>
+            Entre 1976 e 2022, a produtividade total dos fatores no campo cresceu de forma contínua. Isso significa: mais alimento, com a mesma terra — ou até menos.
+          </p>
+        </div>
+        <div class="context-chart" aria-label="Comparação: aumento de produção vs aumento de área plantada">
+          <div class="bar-compare">
+            <div class="bar-item">
+              <span class="bar-label">Crescimento da produção</span>
+              <div class="bar-track">
+                <div class="bar-fill bar-fill--green" style="width: 0%" data-width="84%">
+                  <span class="bar-value">+27%</span>
+                </div>
+              </div>
+            </div>
+            <div class="bar-item">
+              <span class="bar-label">Aumento de área</span>
+              <div class="bar-track">
+                <div class="bar-fill bar-fill--brown" style="width: 0%" data-width="45%">
+                  <span class="bar-value">+15,5%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="chart-caption">Projeção 2023–2034 | Fonte: MAPA/Embrapa, 2024</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO: BIOMAS ========== -->
+  <section id="biomas" class="section section-dark" aria-labelledby="biomas-title">
+    <div class="container">
+      <span class="section-eyebrow section-eyebrow--light">Natureza em risco</span>
+      <h2 id="biomas-title" class="section-title section-title--light">Os biomas mais afetados</h2>
+      <p class="section-intro section-intro--light">
+        A expansão descontrolada do agronegócio ameaça dois dos maiores patrimônios naturais do planeta. Conheça os dados.
+      </p>
+
+      <div class="biomas-grid">
+
+        <!-- CERRADO -->
+        <!--
+          Imagem: cerrado brasileiro
+          Fonte: Unsplash – foto de Simone Dalmeri
+          URL: https://unsplash.com/photos/brown-grass-field-during-daytime-7c8IFzfY_rM
+          Licença: Unsplash Free License
+        -->
+        <article class="bioma-card bioma-card--cerrado" aria-labelledby="cerrado-title">
+          <div class="bioma-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=700&q=80"
+              alt="Paisagem típica do Cerrado brasileiro, com vegetação rasteira e árvores de tronco retorcido sob céu azul"
+              loading="lazy"
+              width="700"
+              height="420"
+            />
+            <!--
+              Fonte da imagem: Unsplash – foto de Alex Azabache
+              URL: https://unsplash.com/photos/1549366021-9f761d450615
+              Licença: Unsplash Free License
+            -->
+          </div>
+          <div class="bioma-content">
+            <span class="bioma-tag">Cerrado</span>
+            <h3 id="cerrado-title">A savana tropical mais rica do mundo</h3>
+            <ul class="bioma-facts" role="list">
+              <!--
+                Fonte: WWF Brasil – Cerrado. Disponível em: https://www.wwf.org.br/nossosconteudos/biomas/cerrado/
+              -->
+              <li>
+                <strong>23,9%</strong> do território brasileiro
+              </li>
+              <!--
+                Fonte: WWF Brasil – Cerrado. Disponível em: https://www.wwf.org.br/nossosconteudos/biomas/cerrado/
+              -->
+              <li>
+                <strong>5%</strong> de todas as espécies do mundo
+              </li>
+              <!--
+                Fonte: CNN Brasil – Dia do Cerrado, set. 2025. Disponível em: https://www.cnnbrasil.com.br/nacional/brasil/dia-do-cerrado-o-bioma-mais-desmatado-do-brasil-vive-sob-ameaca/
+              -->
+              <li>
+                <strong>52,5%</strong> de todo desmatamento do Brasil em 2024 (MapBiomas/RAD 2024)
+              </li>
+              <!--
+                Fonte: Conexão Planeta – "Mais de 55% da vegetação nativa do Cerrado já foi perdida", jan. 2026. Disponível em: https://conexaoplaneta.com.br/blog/mais-de-55-da-vegetacao-nativa-do-cerrado-ja-foi-perdida/
+              -->
+              <li>
+                <strong>Mais de 55%</strong> da vegetação original já foi perdida
+              </li>
+              <!--
+                Fonte: CNN Brasil – Dia do Cerrado, set. 2025. Disponível em: https://www.cnnbrasil.com.br/nacional/brasil/dia-do-cerrado-o-bioma-mais-desmatado-do-brasil-vive-sob-ameaca/
+              -->
+              <li>
+                <strong>Apenas 8,21%</strong> de seu território em unidades de conservação (ICMBio)
+              </li>
+              <!--
+                Fonte: Agência Brasil – "Dia do Cerrado", set. 2024. Disponível em: https://agenciabrasil.ebc.com.br/geral/noticia/2024-09/dia-do-cerrado-bioma-e-o-segundo-mais-ameacado-no-pais-0
+              -->
+              <li>
+                Nasce <strong>8 das 12 bacias hidrográficas</strong> brasileiras no Cerrado
+              </li>
+            </ul>
+            <div class="bioma-alerta">
+              <!--
+                Fonte: CNN Brasil – Dia do Cerrado, set. 2025. Disponível em: https://www.cnnbrasil.com.br/nacional/brasil/dia-do-cerrado-o-bioma-mais-desmatado-do-brasil-vive-sob-ameaca/
+              -->
+              <p>⚠️ Em 2024, <strong>9,7 milhões de hectares</strong> foram atingidos por queimadas no Cerrado (IPAM, 2024).</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- AMAZÔNIA -->
+        <!--
+          Imagem: floresta amazônica
+          Fonte: Unsplash – foto de Patrick Hendry
+          URL: https://unsplash.com/photos/green-trees-under-blue-sky-during-daytime-_gP0h6HWBWY
+          Licença: Unsplash Free License
+        -->
+        <article class="bioma-card bioma-card--amazonia" aria-labelledby="amazonia-title">
+          <div class="bioma-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1518982380512-5a3c6f6e5ee6?w=700&q=80"
+              alt="Vista aérea da floresta amazônica com rio sinuoso cortando a densa cobertura verde"
+              loading="lazy"
+              width="700"
+              height="420"
+            />
+            <!--
+              Fonte da imagem: Unsplash – foto de Tarcisio Schnaider
+              URL: https://unsplash.com/photos/1518982380512-5a3c6f6e5ee6
+              Licença: Unsplash Free License
+            -->
+          </div>
+          <div class="bioma-content">
+            <span class="bioma-tag bioma-tag--green">Amazônia</span>
+            <h3 id="amazonia-title">O maior bioma tropical do planeta</h3>
+            <ul class="bioma-facts" role="list">
+              <!--
+                Fonte: INPE/PRODES – desmatamento Amazônia 2024. Disponível em: https://agenciagov.ebc.com.br/noticias/202411/desmatamento-cai-30-6-na-amazonia-e-25-8-no-cerrado-em-2024
+              -->
+              <li>
+                <strong>6.288 km²</strong> desmatados de ago. 2023 a jul. 2024 (PRODES/INPE)
+              </li>
+              <!--
+                Fonte: Agência Gov – "Desmatamento cai 30,6% na Amazônia", nov. 2024. Disponível em: https://agenciagov.ebc.com.br/noticias/202411/desmatamento-cai-30-6-na-amazonia-e-25-8-no-cerrado-em-2024
+              -->
+              <li>
+                Queda de <strong>30,6%</strong> no desmatamento em 2024 — o maior recuo em 15 anos
+              </li>
+              <!--
+                Fonte: Correio Braziliense – "INPE: desmatamento cai na Amazônia mas aumenta no Cerrado", jan. 2024. Disponível em: https://www.correiobraziliense.com.br/brasil/2024/01/amp/6780870-inpe-desmatamento-cai-na-amazonia-mas-aumenta-no-cerrado.html
+              -->
+              <li>
+                Pico em 2022: <strong>10.277 km²</strong> desmatados em um único ano
+              </li>
+              <!--
+                Fonte: Agência Gov – "Desmatamento cai", nov. 2024.
+              -->
+              <li>
+                Redução de <strong>400,8 milhões de toneladas de CO₂</strong> em emissões nos ciclos 2021/22 vs 2023/24
+              </li>
+            </ul>
+            <div class="bioma-alerta bioma-alerta--green">
+              <p>✅ A meta do Governo Federal é <strong>desmatamento zero</strong> em todos os biomas até 2030 (Decreto Federal, nov. 2024).</p>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- .biomas-grid -->
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO: DADOS E COMPARAÇÕES ========== -->
+  <section id="dados" class="section section-cream" aria-labelledby="dados-title">
+    <div class="container">
+      <span class="section-eyebrow">Comparações</span>
+      <h2 id="dados-title" class="section-title">O que os dados revelam</h2>
+      <p class="section-intro">
+        Veja como o Brasil pode ser líder em produção <em>e</em> em preservação — mas ainda precisa escolher o caminho certo.
+      </p>
+
+      <!-- Timeline de desmatamento Cerrado -->
+      <div class="timeline-block" aria-label="Linha do tempo do desmatamento no Cerrado">
+        <h3 class="block-title">Desmatamento no Cerrado (km²) — ciclos PRODES/INPE</h3>
+        <div class="timeline" role="list">
+          <!--
+            Fonte de todos os dados da timeline: INPE/PRODES e Agência Gov.
+            Disponível em: https://agenciagov.ebc.com.br/noticias/202411/desmatamento-cai-30-6-na-amazonia-e-25-8-no-cerrado-em-2024
+            e https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2024-11/apos-cinco-anos-de-aumento-desmatamento-no-cerrado-tem-queda
+          -->
+          <div class="timeline-item" role="listitem">
+            <div class="tl-year">2019/20</div>
+            <div class="tl-bar-wrap">
+              <div class="tl-bar" style="width:0%" data-width="59%" title="6.654 km²">
+                <span class="tl-val">6.654 km²</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item" role="listitem">
+            <div class="tl-year">2020/21</div>
+            <div class="tl-bar-wrap">
+              <div class="tl-bar" style="width:0%" data-width="63%" title="7.340 km²">
+                <span class="tl-val">7.340 km²</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item" role="listitem">
+            <div class="tl-year">2021/22</div>
+            <div class="tl-bar-wrap">
+              <div class="tl-bar" style="width:0%" data-width="80%" title="8.531 km²">
+                <span class="tl-val">8.531 km²</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item" role="listitem">
+            <div class="tl-year">2022/23</div>
+            <div class="tl-bar-wrap">
+              <div class="tl-bar tl-bar--peak" style="width:0%" data-width="100%" title="11.020 km² (pico)">
+                <span class="tl-val">11.020 km² ⚠️</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item" role="listitem">
+            <div class="tl-year">2023/24</div>
+            <div class="tl-bar-wrap">
+              <div class="tl-bar tl-bar--down" style="width:0%" data-width="74%" title="8.174 km²">
+                <span class="tl-val">8.174 km² ↓</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="chart-caption">
+          Fonte: INPE/PRODES (nov. 2024) | Queda de 25,8% no último ciclo — a primeira em 4 anos.
+          Disponível em: <a href="https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2024-11/apos-cinco-anos-de-aumento-desmatamento-no-cerrado-tem-queda" target="_blank" rel="noopener noreferrer">Agência Brasil</a>
+        </p>
+      </div>
+
+      <!-- Bloco de comparação: produtividade da soja -->
+      <div class="compare-block" aria-label="Comparação de produtividade da soja ao longo dos anos">
+        <h3 class="block-title">Soja: mais produção, menos pressão sobre o solo</h3>
+        <p>
+          <!--
+            Fonte: IBGE – Levantamento Sistemático da Produção Agrícola, dez. 2024.
+            Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38865-ibge-preve-safra-de-306-5-milhoes-de-toneladas-para-2024
+          -->
+          Em 2024, a produção de soja chegou a <strong>154,5 milhões de toneladas</strong> — novo recorde histórico —, com área plantada crescendo <strong>apenas 4%</strong> em relação a 2022. Isso é o princípio da <em>intensificação sustentável</em>: produzir mais no mesmo espaço.
+        </p>
+        <div class="compare-cards">
+          <div class="compare-card compare-card--bad">
+            <div class="cc-icon" aria-hidden="true">🌳</div>
+            <h4>Modelo antigo</h4>
+            <p>Para produzir mais, desmatava-se mais. Expansão de fronteiras agrícolas como único caminho.</p>
+            <ul>
+              <li>Alta emissão de CO₂</li>
+              <li>Perda de biodiversidade</li>
+              <li>Erosão do solo</li>
+              <li>Conflito com biomas nativos</li>
+            </ul>
+          </div>
+          <div class="compare-arrow" aria-hidden="true">→</div>
+          <div class="compare-card compare-card--good">
+            <div class="cc-icon" aria-hidden="true">🌱</div>
+            <h4>Modelo sustentável</h4>
+            <p>Tecnologia, manejo e precisão aumentam a produção sem novas derrubadas.</p>
+            <ul>
+              <li>Maior produtividade por hectare</li>
+              <li>Preservação dos biomas</li>
+              <li>Solo saudável a longo prazo</li>
+              <li>Agro competitivo no mundo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bloco: quem mais desmata no Cerrado -->
+      <div class="matopiba-block">
+        <h3 class="block-title">MATOPIBA: a fronteira que precisa de atenção</h3>
+        <!--
+          Fonte: Agência Brasil – "Após cinco anos de aumento, desmatamento no Cerrado tem queda", nov. 2024.
+          Disponível em: https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2024-11/apos-cinco-anos-de-aumento-desmatamento-no-cerrado-tem-queda
+        -->
+        <p>
+          Cerca de <strong>76% do desmatamento no Cerrado</strong> está concentrado em quatro estados: Maranhão, Tocantins, Piauí e Bahia — a região conhecida como <strong>MATOPIBA</strong>, principal fronteira agropecuária do bioma. Em 2024, a Bahia registrou queda de <strong>63,3%</strong> no desmatamento após maior fiscalização (INPE/PRODES, nov. 2024).
+        </p>
+        <div class="estados-grid" aria-label="Variação do desmatamento por estado em 2024">
+          <div class="estado-item">
+            <span class="estado-nome">Bahia</span>
+            <span class="estado-var estado-var--down">-63,3%</span>
+          </div>
+          <div class="estado-item">
+            <span class="estado-nome">Maranhão</span>
+            <span class="estado-var estado-var--down">-15,1%</span>
+          </div>
+          <div class="estado-item">
+            <span class="estado-nome">Piauí</span>
+            <span class="estado-var estado-var--down">-10,1%</span>
+          </div>
+          <div class="estado-item">
+            <span class="estado-nome">Tocantins</span>
+            <span class="estado-var estado-var--down">-9,6%</span>
+          </div>
+        </div>
+        <p class="chart-caption">
+          Variação 2023/2024 vs 2022/2023 | Fonte: INPE/PRODES (nov. 2024)
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO: SOLUÇÕES ========== -->
+  <section id="solucoes" class="section section-light" aria-labelledby="solucoes-title">
+    <div class="container">
+      <span class="section-eyebrow">O que fazer</span>
+      <h2 id="solucoes-title" class="section-title">Produzir mais, desmatando menos</h2>
+      <p class="section-intro">
+        A ciência e a tecnologia já mostram o caminho. Veja práticas que equilibram produção e natureza.
+      </p>
+
+      <div class="solucoes-grid" role="list">
+
+        <article class="solucao-card" role="listitem">
+          <!--
+            Fonte: Embrapa – Integração Lavoura-Pecuária-Floresta (iLPF)
+            Disponível em: https://www.embrapa.br/en/tema-integracao-lavoura-pecuaria-floresta/sobre-o-tema
+          -->
+          <div class="sc-icon" aria-hidden="true">🌿</div>
+          <h3>Integração Lavoura-Pecuária-Floresta (iLPF)</h3>
+          <p>
+            Sistema da Embrapa que combina agricultura, pecuária e florestas na mesma área. Aumenta a produtividade e restaura o solo sem desmatar novas áreas.
+          </p>
+          <span class="sc-badge">Embrapa</span>
+        </article>
+
+        <article class="solucao-card" role="listitem">
+          <!--
+            Fonte: Embrapa – Plantio Direto
+            Disponível em: https://www.embrapa.br/agencia-de-informacao-tecnologica/tematicas/plantio-direto
+          -->
+          <div class="sc-icon" aria-hidden="true">🚜</div>
+          <h3>Plantio direto e manejo de solo</h3>
+          <p>
+            Técnica que elimina o revolvimento do solo, reduz erosão, retém carbono e aumenta a produtividade. Adotada em mais de 30 milhões de hectares no Brasil.
+          </p>
+          <span class="sc-badge">Embrapa</span>
+        </article>
+
+        <article class="solucao-card" role="listitem">
+          <!--
+            Fonte: MAPA – Programa ABC+ (Agricultura de Baixo Carbono)
+            Disponível em: https://www.gov.br/agricultura/pt-br/assuntos/sustentabilidade/plano-setorial-para-adaptacao-a-mudanca-do-clima-e-baixa-emissao-de-carbono-na-agropecuaria-abc
+          -->
+          <div class="sc-icon" aria-hidden="true">🌍</div>
+          <h3>Programa ABC+ (Baixo Carbono)</h3>
+          <p>
+            Política pública que financia práticas agrícolas sustentáveis, como recuperação de pastagens degradadas e fixação biológica de nitrogênio. Meta: 72 milhões de ha até 2030.
+          </p>
+          <span class="sc-badge">MAPA</span>
+        </article>
+
+        <article class="solucao-card" role="listitem">
+          <!--
+            Fonte: MapBiomas – monitoramento por satélite
+            Disponível em: https://mapbiomas.org
+          -->
+          <div class="sc-icon" aria-hidden="true">🛰️</div>
+          <h3>Monitoramento por satélite</h3>
+          <p>
+            Sistemas como PRODES e DETER (INPE) e MapBiomas monitoram o desmatamento em tempo real por satélite, possibilitando fiscalização mais eficaz e transparente.
+          </p>
+          <span class="sc-badge">INPE / MapBiomas</span>
+        </article>
+
+        <article class="solucao-card" role="listitem">
+          <!--
+            Fonte: MMA – Código Florestal (Lei 12.651/2012)
+            Disponível em: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm
+          -->
+          <div class="sc-icon" aria-hidden="true">📜</div>
+          <h3>Código Florestal e Reserva Legal</h3>
+          <p>
+            A legislação brasileira exige que propriedades rurais mantenham áreas de vegetação nativa: 80% na Amazônia, 35% no Cerrado e 20% em outras regiões. Cumprimento é monitorado pelo CAR (Cadastro Ambiental Rural).
+          </p>
+          <span class="sc-badge">MMA / Lei 12.651/2012</span>
+        </article>
+
+        <article class="solucao-card" role="listitem">
+          <!--
+            Fonte: Embrapa – Agricultura de Precisão
+            Disponível em: https://www.embrapa.br/tema-agricultura-de-precisao
+          -->
+          <div class="sc-icon" aria-hidden="true">📡</div>
+          <h3>Agricultura de precisão</h3>
+          <p>
+            Uso de GPS, drones, sensores e inteligência artificial para otimizar o uso de insumos (água, fertilizantes, defensivos), reduzindo custos e impacto ambiental na lavoura.
+          </p>
+          <span class="sc-badge">Embrapa</span>
+        </article>
+
+      </div><!-- .solucoes-grid -->
+
+      <!-- CTA Quiz -->
+      <div class="quiz-cta" aria-label="Quiz interativo sobre o tema">
+        <h3>Teste seus conhecimentos!</h3>
+        <p>Você absorveu as informações? Responda o quiz e veja o quanto aprendeu sobre agro e sustentabilidade.</p>
+        <button class="btn btn-primary" id="btnQuiz" onclick="document.getElementById('quiz-section').scrollIntoView({behavior:'smooth'})">Iniciar o Quiz</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SEÇÃO: QUIZ ========== -->
+  <section id="quiz-section" class="section section-dark" aria-labelledby="quiz-title">
+    <div class="container quiz-container">
+      <span class="section-eyebrow section-eyebrow--light">Interatividade</span>
+      <h2 id="quiz-title" class="section-title section-title--light">Quiz: Agro e Sustentabilidade</h2>
+      <div id="quiz-area" role="main" aria-live="polite">
+        <!-- Preenchido pelo JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RODAPÉ / CRÉDITOS ========== -->
+  <footer id="creditos" class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">🌾 Agro Forte, Futuro Sustentável</span>
+        <p>Projeto desenvolvido para o Concurso Agrinho 2024 — Programação Front-End</p>
+        <!-- TAG AGRINHO OBRIGATÓRIA -->
+        <p class="agrinho-tag"><strong>agrinho</strong></p>
+      </div>
+
+      <div class="footer-fontes">
+        <h3>Fontes consultadas</h3>
+        <ul>
+          <li><a href="https://www.cnabrasil.org.br/noticias/pib-do-agronegocio-fecha-2024-com-crescimento-de-1-81" target="_blank" rel="noopener noreferrer">CNA/CEPEA – PIB do Agronegócio 2024</a></li>
+          <li><a href="https://agenciagov.ebc.com.br/noticias/202411/desmatamento-cai-30-6-na-amazonia-e-25-8-no-cerrado-em-2024" target="_blank" rel="noopener noreferrer">Agência Gov – INPE/PRODES Desmatamento 2024</a></li>
+          <li><a href="https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2024-11/apos-cinco-anos-de-aumento-desmatamento-no-cerrado-tem-queda" target="_blank" rel="noopener noreferrer">Agência Brasil – Desmatamento Cerrado nov. 2024</a></li>
+          <li><a href="https://www.wwf.org.br/nossosconteudos/biomas/cerrado/" target="_blank" rel="noopener noreferrer">WWF Brasil – Bioma Cerrado</a></li>
+          <li><a href="https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/38865-ibge-preve-safra-de-306-5-milhoes-de-toneladas-para-2024" target="_blank" rel="noopener noreferrer">IBGE – Levantamento Produção Agrícola 2024</a></li>
+          <li><a href="https://agenciagov.ebc.com.br/noticias/202410/producao-de-graos-atingira-379-milhoes-de-toneladas-nos-proximos-dez-anos-com-crescimento-de-27" target="_blank" rel="noopener noreferrer">MAPA/Embrapa – Projeções do Agronegócio 2024–2034</a></li>
+          <li><a href="https://www.cnnbrasil.com.br/nacional/brasil/dia-do-cerrado-o-bioma-mais-desmatado-do-brasil-vive-sob-ameaca/" target="_blank" rel="noopener noreferrer">CNN Brasil – Dia do Cerrado (set. 2025)</a></li>
+          <li><a href="https://conexaoplaneta.com.br/blog/mais-de-55-da-vegetacao-nativa-do-cerrado-ja-foi-perdida/" target="_blank" rel="noopener noreferrer">Conexão Planeta – Vegetação nativa perdida (jan. 2026)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-creditos">
+        <h3>Créditos</h3>
+        <p>Imagens sem direitos autorais via <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a> (Unsplash Free License).</p>
+        <p>Fontes tipográficas: Merriweather e Open Sans via <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a> (SIL OFL / Apache 2.0).</p>
+        <p>Desenvolvido com HTML, CSS e JavaScript puro.</p>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <p>© 2024 Projeto Agrinho · Todos os dados citados possuem fontes oficiais indicadas no código-fonte</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
